@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Foody/Foody.iml" filepath="$PROJECT_DIR$/Foody/Foody.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LineChart/LineChart.iml" filepath="$PROJECT_DIR$/LineChart/LineChart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyDemo.iml" filepath="$PROJECT_DIR$/MyDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SendDatawithRetrofit/SendDatawithRetrofit.iml" filepath="$PROJECT_DIR$/SendDatawithRetrofit/SendDatawithRetrofit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Temperature/Temperature.iml" filepath="$PROJECT_DIR$/Temperature/Temperature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demomap/demomap.iml" filepath="$PROJECT_DIR$/demomap/demomap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/forecastoceanproject/forecastoceanproject.iml" filepath="$PROJECT_DIR$/forecastoceanproject/forecastoceanproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mymap/mymap.iml" filepath="$PROJECT_DIR$/mymap/mymap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tabexample/tabexample.iml" filepath="$PROJECT_DIR$/tabexample/tabexample.iml" />
+    </modules>
+  </component>
+</project>

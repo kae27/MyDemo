@@ -1,0 +1,1 @@
+include ':app', ':mymap', ':demomap', ':Temperature', ':tabexample', ':forecastoceanproject', 'SendDatawithRetrofit', 'LineChart', 'Foody'

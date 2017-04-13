@@ -1,0 +1,84 @@
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.demomap.MapsActivity">
+
+    <LinearLayout
+        android:id="@+id/laout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#BBDEFB"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/TvDate"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:id="@+id/btnDate"
+            android:text="Date"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/laout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/laout1"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/Lat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Lat:"/>
+        <TextView
+            android:id="@+id/TextLat"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/Long"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lng:"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/TextLng"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+
+            />
+    </LinearLayout>
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:layout_below="@+id/laout2"
+        />
+
+    <Button
+        android:id="@+id/ButtonView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="VIEW"
+        android:layout_below="@+id/map"
+        android:background="#23d5c6"
+
+
+
+        />
+
+
+</RelativeLayout>
+
